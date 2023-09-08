@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  padding: 0 10px;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  a {
+    color: #212121;
+    transition: all 0.3s ease;
+    padding: 20px 0;
+    &:hover {
+      color: red
+    }
+    &.active {
+      color: red;
+    }
+  }
+}
